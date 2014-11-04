@@ -1,0 +1,34 @@
+{
+  "author": "SnailJS <developers@snailjs.org>",
+  "name": "safety",
+  "description": "Incremental backup system for NodeJS applications",
+  "version": "0.1.0",
+  "homepage": "http://snailjs.org/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snailjs/safety.git"
+  },
+  "main": "app.js",
+  "keywords": [
+    "backup",
+    "incremental backup",
+    "restore",
+    "safe",
+    "offsite"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "bluebird": "2.3.x",
+    "debug": "2.0.x"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "chai": "1.9.x",
+    "mocha": "1.21.x",
+    "request": "2.44.x"
+  }
+}
