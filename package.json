@@ -2,13 +2,12 @@
   "author": "Bryan Tong <bryan@nullivex.com>",
   "name": "safety",
   "description": "Incremental backup system for NodeJS applications",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "http://kado.org/",
   "repository": {
     "type": "git",
     "url": "https://github.com/nullivex/safety.git"
   },
-  "main": "app.js",
   "keywords": [
     "backup",
     "incremental backup",
